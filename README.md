@@ -257,6 +257,10 @@ In this lab, you should write a generalized `map` and `reduce` method. Both of
 these methods will take a block and require that you pass information between
 the method and the block. Write your code in the `lib/my_code.rb` file.
 
+**Note**: This is a challenging lab. Do your best to solve using the information
+below. If you do find yourself stuck, a walkthrough video is provided at the end
+of this Readme.
+
 ### `map`
 
 Your implementation should expect a source array and a block. All the tests
@@ -286,6 +290,9 @@ became _generalized_ as:
 ```ruby
 map([1, 2, 3, -9]){|n| n * n} #=> [1, 4, 9, 81]
 ```
+## Video Walkthrough
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/y2tGPQdku4c" frameborder="0" allowfullscreen></iframe>
 
 ## Conclusion
 
